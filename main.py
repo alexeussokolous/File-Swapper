@@ -35,7 +35,7 @@ class Main(tk.Frame):
         self.infowin.geometry(f'+{root.winfo_screenwidth() // 2 - 200}+{root.winfo_screenheight() // 2 - 100}')
         self.infowin.title('Информация')
         self.infolbl = tk.Label(self.infowin, text='Разработанно: Соколов А.С.\n'
-                                                   'По всем вопросам обращайтесь ...\n'
+                                                   'По всем вопросам обращайтесь ...\n'  # надо что-то написать, но я не знаю что
                                                    'There should be an instruction, but, well, sorry',
                                 font=('IBM Plex', 10))
         self.infolbl.place(x=50, y=50)
